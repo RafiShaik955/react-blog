@@ -1,0 +1,46 @@
+.share{
+    display: flex;
+}
+
+.share div{
+    margin:10px;
+}
+
+.share div a{
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+.author{
+    display: flex;
+    border: 2px solid rgb(160, 160, 160);
+    padding: 20px;
+    max-width: 450px;
+    height: 200px;
+}
+.author a{
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.author span{
+    color: rgb(139, 5, 139);
+}
+.author img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.author h3:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.author span:hover{
+    cursor: pointer;
+    color: rgb(95, 70, 74);
+}
